@@ -7,8 +7,8 @@ const App = () => {
       axios 
         .post(url, JSONBody, {
           headers: {
-            pinata_api_key: "3bfc7830a2bcfe156bf3",
-            pinata_secret_api_key: "8202b4d43e9108df1118dbee63909b544239bed21b3f799e3c2ebe78ed16ecdb",
+            pinata_api_key: "YOUR_PINATA_API_KEY",
+            pinata_secret_api_key: "YOUR_PINATA_SECRET_KEY",
           }
         })
         .then(function (response) {
